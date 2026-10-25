@@ -1,0 +1,31 @@
+{
+  "name": "@fixmate/client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "@tailwindcss/vite": "latest",
+    "axios": "latest",
+    "framer-motion": "latest",
+    "gsap": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "latest",
+    "react-router-dom": "latest",
+    "recharts": "latest",
+    "tailwindcss": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}

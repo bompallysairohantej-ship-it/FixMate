@@ -1,0 +1,35 @@
+{
+  "name": "@fixmate/server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "demo": "node src/index.js --demo",
+    "start": "node src/index.js",
+    "seed": "node src/seeds/run.js",
+    "indexes": "node src/ai/indexes.js",
+    "test": "node --test --test-concurrency=1 src/tests/*.test.js"
+  },
+  "dependencies": {
+    "@langchain/core": "latest",
+    "@langchain/ollama": "latest",
+    "bcrypt": "latest",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "file-type": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "multer": "latest",
+    "nodemailer": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "latest",
+    "supertest": "latest"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+client/dist
+.data
+package-lock.json
